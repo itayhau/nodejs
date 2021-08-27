@@ -19,6 +19,7 @@ const port = 8080
 
 const app = express();
 app.use(express.static(path.join(__dirname, '/')))
+// comment
 // localhost:8080/page1.html
 
 app.use(express.json())
