@@ -6,7 +6,7 @@ const cors = require("cors");
 const sqlite3 = require('sqlite3').verbose();
 //const db1 = require("..express1/first.db")
 
-const knex = require("knex");
+const knex = require("knex"); 
 const { type } = require('os');
 const connectedKnex = knex({
   client: "sqlite3",
